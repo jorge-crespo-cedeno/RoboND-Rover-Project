@@ -9,6 +9,9 @@
 **Notebook Analysis**  
 
 * In [6] of the Notebook, I added two functions: `below_color_thresh()` and `in_between_color_threshs()`, to detect obstacles and rocks, respectively. In the former, I return a binary image when RGB is less than the threshold. For the latter, I check that RGB is between a bottom and a top thresholds.
+
+[//]: # (Image References)
+
 [image1]: ./output/rock01.jpg
 [image2]: ./output/perspective01.jpg
 [image3]: ./output/yellow_color_detection01.jpg
