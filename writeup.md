@@ -44,4 +44,4 @@ Each of them has been previouly described.
 * Rover coordinates were transformed to world coordinates, using Rover state to obtained rover position and yaw
 * Rover navigable angles and distances were filled in
 * In `decision_step()` no changes were done, because when the navigable angles are filled in in the Rover state; `decision_step()` uses different checks as an implementation of the decision tree that was explained in the course.  
-![alt text][image3]
+![alt text][image4]
