@@ -18,9 +18,7 @@ Each of them has been previouly described.
 * Then, I transformed to rover coordinates the images obtained in `color_thresh()`-ground-, `below_color_thresh()`-obstacles-, `in_between_color_thresh()`-yellow rocks-.
 * Afterwards, the rover coordinates were transformed to world coordinates using the rover position in the world, obtained from the Databucked (defined in [8]).
 * The video output is included in the submission and here:
-[//]: # (Video References)
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](./output/test_mapping.mp4)
-[video]: ./output/test_mapping.mp4.
+[![Watch the video](./calibration_images/example_rock1.jpg)](./output/test_mapping.mp4)
 
 **Autonomous Navigation / Mapping**
 
@@ -68,5 +66,4 @@ Here I'll talk about the approach I took, what techniques I used, what worked an
 
 
 ![alt text][image3]
-
 
