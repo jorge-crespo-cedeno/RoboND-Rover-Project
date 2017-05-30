@@ -12,9 +12,9 @@
 
 [//]: # (Image References)
 
-[image1]: ./output/rock01.jpg
-[image2]: ./output/perspective01.jpg
-[image3]: ./output/yellow_color_detection01.jpg
+[image1]: ./output/rock01.png
+[image2]: ./output/perspective01.png
+[image3]: ./output/yellow_color_detection01.png
 * For ground pixels, I changed the default threshold to (157, 142, 131), to improve fidelity in the autonomous mode.
 * In [9], the cell for the `process_image()` function, I defined the source and destination for the perspective transform. These values where obtained in the pre-processing steps. Then, I used the previouly defined functions:
 - `perspective_transform()`
