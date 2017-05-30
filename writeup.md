@@ -21,7 +21,6 @@ Each of them has been previouly described.
 [//]: # (Video References)
 [![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](./output/test_mapping.mp4)
 [video]: ./output/test_mapping.mp4.
-* Add functions to detect obstacles and samples of interest (golden rocks)
 
 **Autonomous Navigation / Mapping**
 
