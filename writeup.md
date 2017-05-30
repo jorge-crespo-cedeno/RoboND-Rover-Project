@@ -15,6 +15,10 @@
 [image1]: ./output/rock01.png
 [image2]: ./output/perspective01.png
 [image3]: ./output/yellow_color_detection01.png
+![alt text][image1]
+![alt text][image2]
+![alt text][image3]
+
 * For ground pixels, I changed the default threshold to (157, 142, 131), to improve fidelity in the autonomous mode.
 * In [9], the cell for the `process_image()` function, I defined the source and destination for the perspective transform. These values where obtained in the pre-processing steps. Then, I used the previouly defined functions:
 - `perspective_transform()`
@@ -35,9 +39,9 @@ Each of them has been previouly described.
 
 [//]: # (Image References)
 
-[image1]: ./misc/rover_image.jpg
-[image2]: ./calibration_images/example_grid1.jpg
-[image3]: ./calibration_images/example_rock1.jpg 
+[image4]: ./misc/rover_image.jpg
+[image5]: ./calibration_images/example_grid1.jpg
+[image6]: ./calibration_images/example_rock1.jpg 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -53,12 +57,12 @@ You're reading it!
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
 Here is an example of how to include an image in your writeup.
 
-![alt text][image1]
+![alt text][image4]
 
 #### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
 And another! 
 
-![alt text][image2]
+![alt text][image5]
 ### Autonomous Navigation and Mapping
 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
@@ -72,6 +76,6 @@ Here I'll talk about the approach I took, what techniques I used, what worked an
 
 
 
-![alt text][image3]
+![alt text][image6]
 
 
